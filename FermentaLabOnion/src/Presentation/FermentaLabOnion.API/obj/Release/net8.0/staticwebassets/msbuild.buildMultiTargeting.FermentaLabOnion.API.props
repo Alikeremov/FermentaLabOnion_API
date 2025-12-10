@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FermentaLabOnion.API.props" />
+</Project>

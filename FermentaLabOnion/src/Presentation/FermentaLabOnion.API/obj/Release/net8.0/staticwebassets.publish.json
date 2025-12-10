@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "A82TlB4Jss20g+diUngjU7fBD7n6aKH/50TUV0ilaFA=",
+  "Source": "FermentaLabOnion.API",
+  "BasePath": "_content/FermentaLabOnion.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
