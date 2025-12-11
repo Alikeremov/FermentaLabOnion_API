@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FermentaLabOnion.Domain.Entities.Common
 {
-    internal class BaseEntityNameable
+    public abstract class BaseEntityNameable:BaseEntity
     {
+        public string Name { get; set; } = null!;
     }
 }
