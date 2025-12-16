@@ -1,3 +1,4 @@
+using FermentaLabOnion.Application.ServiceRegistrations;
 using FermentaLabOnion.Persistence.ServiceRegistrations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddPersistanceServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
