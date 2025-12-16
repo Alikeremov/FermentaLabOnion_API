@@ -11,5 +11,6 @@ namespace FermentaLabOnion.Domain.Entities
     {
         //Relational properties
         public ICollection<Product>? Products { get; set; }
+        public ICollection<CategoryTranslate>? CategoryTranslates { get; set; }
     }
 }

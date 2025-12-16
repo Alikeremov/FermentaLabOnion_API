@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\bin\Release\net8.0\FermentaLabOnion.Domain.deps.json
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\bin\Release\net8.0\FermentaLabOnion.Domain.runtimeconfig.json
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\bin\Release\net8.0\FermentaLabOnion.Domain.dll
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\bin\Release\net8.0\FermentaLabOnion.Domain.pdb
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.sourcelink.json
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.dll
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\refint\FermentaLabOnion.Domain.dll
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.pdb
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\FermentaLabOnion.Domain.genruntimeconfig.cache
+C:\Users\user\Desktop\FermentaLabOnion_API\FermentaLabOnion\src\Core\FermentaLabOnion.Domain\obj\Release\net8.0\ref\FermentaLabOnion.Domain.dll

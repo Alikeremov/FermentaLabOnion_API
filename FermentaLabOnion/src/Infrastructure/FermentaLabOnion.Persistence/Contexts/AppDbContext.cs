@@ -10,18 +10,26 @@ using System.Threading.Tasks;
 
 namespace FermentaLabOnion.Persistence.Contexts
 {
-    internal class AppDbContext : IdentityDbContext<AppUser>
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
         }
 
 
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductTranslate> ProductTranslates { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<CategoryTranslate> CategoryTranslates { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ProductTag> ProductTags { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<TagTranslate> TagTranslates { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
         }
     }
 }

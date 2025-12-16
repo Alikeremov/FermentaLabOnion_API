@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FermentaLabOnion.Domain.Entities
 {
-    public class Product:BaseEntity
+    public class Product:BaseEntityNameable
     {
         public string Slug { get; set; } = null!;
         public string ShortDescription { get; set; } = null!;
