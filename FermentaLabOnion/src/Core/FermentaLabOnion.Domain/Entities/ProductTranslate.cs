@@ -22,5 +22,8 @@ namespace FermentaLabOnion.Domain.Entities
         public string Brand { get; set; } = null!;
         public string CountryOfOrigin { get; set; } = null!;
         public string ShelfLife { get; set; } = null!;
+        //Relational properties
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
     }
 }

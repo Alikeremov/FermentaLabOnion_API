@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FermentaLabOnion.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+076b60a0ef8642ccdba77ef45a6fc3396df3bbbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+300e2a046cefa51bfbc0d97f16c03e7dd6e34956")]
 [assembly: System.Reflection.AssemblyProductAttribute("FermentaLabOnion.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FermentaLabOnion.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

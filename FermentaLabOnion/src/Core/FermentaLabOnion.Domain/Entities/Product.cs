@@ -30,6 +30,7 @@ namespace FermentaLabOnion.Domain.Entities
         //Relational properties
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
+        public ICollection<ProductTranslate>? ProductTranslates { get; set; }
         public ICollection<ProductTag>? ProductTags { get; set; }
         public ICollection<ProductImage>? ProductImages { get; set; }
     }

@@ -3,6 +3,154 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagtranslatedtos\\tagtranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagdtos\\tagupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagdtos\\tagupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagdtos\\taggetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagdtos\\taggetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\tagdtos\\tagcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\tagdtos\\tagcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslategetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\producttranslatedtos\\producttranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslatecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\producttranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\producttranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\contexts\\migrations\\20251216085419_updateproducttranslatetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\contexts\\migrations\\20251216085419_updateproducttranslatetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\tagtranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\tagtranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\categorytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\categorytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslatenameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslatenameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productimagedtos\\productimagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productdtos\\productgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productdtos\\productgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorytranslatedtos\\categorytranslateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\categorydtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\appusergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\dtos\\autenticationdtos\\appusergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\implementations\\repositories\\tagtranslaterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\implementations\\repositories\\tagtranslaterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\implementations\\repositories\\categorytranslaterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\implementations\\repositories\\categorytranslaterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\categorytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\categorytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\implementations\\repositories\\tagrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,28 +227,12 @@
       "RelativeMoniker": "D:0:0:{1F9ABF68-9220-48A2-A6F6-004A09ECE786}|src\\Core\\FermentaLabOnion.Application\\FermentaLabOnion.Application.csproj|solutionrelative:src\\core\\fermentalabonion.application\\abstraction\\repositories\\generic\\itranslatedrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\contexts\\migrations\\20251216073234_tableswascreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\contexts\\migrations\\20251216073234_tableswascreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\contexts\\migrations\\20251212095612_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,10 +245,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\producttranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\producttranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\infrastructure\\fermentalabonion.persistence\\configurations\\categorytranslateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,28 +263,8 @@
       "RelativeMoniker": "D:0:0:{4B41C3AA-5838-4C0B-849A-2B576C050C33}|src\\Infrastructure\\FermentaLabOnion.Persistence\\FermentaLabOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\fermentalabonion.persistence\\configurations\\tagtranslateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\tagtranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\tagtranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslatenameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslatenameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5048A-573F-4417-BB61-54DB76EF8261}|src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj|solutionrelative:src\\core\\fermentalabonion.domain\\entities\\common\\baseentitytranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14F3BDFA-6468-4962-A65C-E6149EB843D8}|src\\Presentation\\FermentaLabOnion.API\\FermentaLabOnion.API.csproj|c:\\users\\user\\desktop\\fermentalabonion_api\\fermentalabonion\\src\\presentation\\fermentalabonion.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -198,46 +302,202 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductImageRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TagCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:58:31.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:58:43.978Z",
+              "WhenOpened": "2025-12-16T08:30:31.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CategoryTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Title": "TagGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:58:17.505Z",
+              "WhenOpened": "2025-12-16T08:29:40.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "TagUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagDTOs\\TagUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:30:45.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagTranslateCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:31:08.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TagTranslateGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:30:58.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TagTranslateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\TagTranslateDTOs\\TagTranslateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:31:25.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductTranslateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateUpdateDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:29:22.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductTranslateGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateGetDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA5wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:29:00.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryTranslateGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:27:00.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductTranslateCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductTranslateDTOs\\ProductTranslateCreateDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:29:12.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryTranslateCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:27:13.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductTranslate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:12:12.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:20:28.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251216085419_UpdateProductTranslateTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216085419_UpdateProductTranslateTable.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216085419_UpdateProductTranslateTable.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216085419_UpdateProductTranslateTable.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216085419_UpdateProductTranslateTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:54:20.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TagTranslate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:58:37.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CategoryTranslate.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\CategoryTranslate.cs",
               "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\CategoryTranslate.cs",
@@ -250,228 +510,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:58:53.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TagTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:59:16.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TagRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:59:04.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:58:02.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProductRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:45:35.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:46:06.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TranslatedRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:56:13.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwvw0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:55:38.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:21:17.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:42:03.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITagTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:52:16.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITagRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:52:02.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IProductTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:45:50.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "IProductImageRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Title": "BaseEntityTranslate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:51:18.216Z",
+              "WhenOpened": "2025-12-16T06:51:50.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "ICategoryTranslateRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Title": "BaseEntityTranslateNameable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:46:23.394Z",
+              "WhenOpened": "2025-12-16T06:57:07.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:30:37.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ITranslatedRepo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:43:30.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:57:37.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "ProductTag.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTag.cs",
               "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTag.cs",
@@ -484,171 +562,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20251216073234_TablesWasCreated.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ProductImageUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:32:34.77Z",
+              "WhenOpened": "2025-12-16T08:28:47.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductTranslateConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "ProductImageGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:23:19.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:24:21.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:20:28.711Z",
+              "WhenOpened": "2025-12-16T08:28:10.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Language.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "ProductImageCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductImageDTOs\\ProductImageCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:48:38.396Z",
+              "WhenOpened": "2025-12-16T08:28:36.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ProductTranslate.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductTranslate.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:12:12.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20251212095612_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:56:13.393Z",
+              "WhenOpened": "2025-12-11T07:20:56.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\AppDbContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwBMAAAAcAAAAAAAAAA==",
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductUpdateDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:30:37.286Z",
+              "WhenOpened": "2025-12-16T08:27:57.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:27:33.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\ProductDTOs\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:27:45.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryTranslateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryTranslateDTOs\\CategoryTranslateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:27:22.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:26:42.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:26:23.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "CategoryTranslateConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\CategoryDTOs\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:23:06.279Z",
+              "WhenOpened": "2025-12-16T08:26:33.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAeAAAAAAAAAA==",
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\ResetPasswordDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:22:28.621Z",
+              "WhenOpened": "2025-12-16T08:26:03.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\RegisterDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:23:07.775Z",
+              "WhenOpened": "2025-12-16T08:25:30.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "TagTranslateConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\LoginDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T07:22:56.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "TagTranslate.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\TagTranslate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:58:37.702Z",
+              "WhenOpened": "2025-12-16T08:25:21.669Z",
               "EditorCaption": ""
             },
             {
@@ -666,20 +757,370 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\ProductImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "AppUserGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\AppUserGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\AppUserGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\AppUserGetDto.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\DTOs\\AutenticationDTOs\\AppUserGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:20:56.895Z",
+              "WhenOpened": "2025-12-16T08:25:07.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:57:37.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductImageRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductImageRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:58:31.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:58:43.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:58:17.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\ProductTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:58:53.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TagTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:59:16.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TagRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\TagRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:59:04.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\CategoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:58:02.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:45:35.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:46:06.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TranslatedRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\TranslatedRepo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:56:13.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwvw0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:55:38.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:21:17.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:42:03.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ITagTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:52:16.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ITagRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ITagRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:52:02.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IProductTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:45:50.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IProductImageRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\IProductImageRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:51:18.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICategoryTranslateRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\ICategoryTranslateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:46:23.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ITranslatedRepo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Application\\Abstraction\\Repositories\\Generic\\ITranslatedRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:43:30.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20251216073234_TablesWasCreated.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251216073234_TablesWasCreated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:32:34.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProductTranslateConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductTranslateConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:23:19.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:24:21.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
+              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
+              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Enums\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:48:38.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20251212095612_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Contexts\\Migrations\\20251212095612_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:56:13.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CategoryTranslateConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryTranslateConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:23:06.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:22:28.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:23:07.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "TagTranslateConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagTranslateConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:22:56.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Tag.cs",
@@ -687,38 +1128,11 @@
               "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:09:36.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T07:09:36.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "BaseEntityTranslateNameable.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslateNameable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:57:07.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "BaseEntityTranslate.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
-              "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
-              "RelativeToolTip": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityTranslate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:51:50.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 67,
               "Title": "TagConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\Configurations\\TagConfiguration.cs",
@@ -730,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 66,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Presentation\\FermentaLabOnion.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Presentation\\FermentaLabOnion.API\\appsettings.json",
@@ -742,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 68,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Infrastructure\\FermentaLabOnion.Persistence\\ServiceRegistrations\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\FermentaLabOnion.Persistence\\ServiceRegistrations\\ServiceRegistration.cs",
@@ -754,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 69,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Presentation\\FermentaLabOnion.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\FermentaLabOnion.API\\Program.cs",
@@ -766,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 70,
               "Title": "BaseEntityNameable.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityNameable.cs",
               "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\Entities\\Common\\BaseEntityNameable.cs",
@@ -778,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 71,
               "Title": "FermentaLabOnion.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FermentaLabOnion_API\\FermentaLabOnion\\src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj",
               "RelativeDocumentMoniker": "src\\Core\\FermentaLabOnion.Domain\\FermentaLabOnion.Domain.csproj",

@@ -447,6 +447,9 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
                     b.Property<string>("QuantityPerPackage")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -483,6 +486,8 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                         .HasColumnType("nvarchar(2000)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
 
                     b.ToTable("ProductTranslates");
                 });
@@ -747,6 +752,17 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("FermentaLabOnion.Domain.Entities.ProductTranslate", b =>
+                {
+                    b.HasOne("FermentaLabOnion.Domain.Entities.Product", "Product")
+                        .WithMany("ProductTranslates")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FermentaLabOnion.Domain.Entities.TagTranslate", b =>
                 {
                     b.HasOne("FermentaLabOnion.Domain.Entities.Tag", "Tag")
@@ -821,6 +837,8 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.Navigation("ProductImages");
 
                     b.Navigation("ProductTags");
+
+                    b.Navigation("ProductTranslates");
                 });
 
             modelBuilder.Entity("FermentaLabOnion.Domain.Entities.Tag", b =>
