@@ -8,8 +8,7 @@ namespace FermentaLabOnion.Domain.Enums
 {
     public enum Language
     {
-        English=1,
-        Azerbaijani,
+        Azerbaijani=1,
         Russian
     }
 }

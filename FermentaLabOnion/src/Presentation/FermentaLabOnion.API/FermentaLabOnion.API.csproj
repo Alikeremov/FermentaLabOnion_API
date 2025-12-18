@@ -36,8 +36,4 @@
     <ProjectReference Include="..\..\Infrastructure\FermentaLabOnion.Persistence\FermentaLabOnion.Persistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

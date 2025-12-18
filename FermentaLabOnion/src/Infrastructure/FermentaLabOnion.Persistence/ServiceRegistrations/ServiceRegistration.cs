@@ -13,6 +13,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
+using FermentaLabOnion.Application.Abstraction.Repositories;
+using FermentaLabOnion.Persistence.Implementations.Repositories;
+using FermentaLabOnion.Application.Abstraction.Services;
+using FermentaLabOnion.Persistence.Implementations.Services;
 
 namespace FermentaLabOnion.Persistence.ServiceRegistrations
 {
@@ -38,6 +42,18 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IUrlHelper>(x => x.GetRequiredService<IUrlHelperFactory>().GetUrlHelper(x.GetRequiredService<IActionContextAccessor>().ActionContext));
+            //Registraion of Repositories
+            services.AddScoped<ICategoryRepo, CategoryRepo>();
+            services.AddScoped<ICategoryTranslateRepo, CategoryTranslateRepo>();
+            services.AddScoped<ICategoryRepo, CategoryRepo>();
+            services.AddScoped<IProductImageRepo, ProductImageRepo>();
+            services.AddScoped<IProductRepo, ProductRepo>();
+            services.AddScoped<IProductTranslateRepo, ProductTranslateRepo>();
+            services.AddScoped<ITagRepo, TagRepo>();
+            services.AddScoped<ITagTranslateRepo, TagTranslateRepo>();
+            //Registration of Services
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICategoryTranslateService, CategoryTranslateService>();
 
 
             return services;

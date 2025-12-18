@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FermentaLabOnion.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e03bb8f4e0a0ed4a2747a717b414479dadd1e872")]
 [assembly: System.Reflection.AssemblyProductAttribute("FermentaLabOnion.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FermentaLabOnion.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

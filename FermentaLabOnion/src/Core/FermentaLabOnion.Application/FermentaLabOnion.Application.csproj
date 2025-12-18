@@ -33,8 +33,4 @@
     <ProjectReference Include="..\FermentaLabOnion.Domain\FermentaLabOnion.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Abstraction\Services\" />
-  </ItemGroup>
-
 </Project>

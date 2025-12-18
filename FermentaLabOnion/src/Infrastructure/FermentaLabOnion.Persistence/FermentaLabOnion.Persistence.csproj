@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Implementations\Services\" />
+    <Folder Include="Utilites\Helpers\" />
   </ItemGroup>
 
 </Project>

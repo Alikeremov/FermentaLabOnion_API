@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FermentaLabOnion.Application.DTOs.CategoryTranslateDTOs;
+using FermentaLabOnion.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,9 @@ namespace FermentaLabOnion.Application.MappingProfiles
     {
         public CategoryTranslateProfile()
         {
-            CreateMap<CategoryTranslateProfile, CategoryTranslateGetDto>();
-            CreateMap<CategoryTranslateCreateDto, CategoryTranslateProfile>();
-            CreateMap<CategoryTranslateProfile, CategoryTranslateUpdateDto>().ReverseMap();
+            CreateMap<CategoryTranslate, CategoryTranslateGetDto>();
+            CreateMap<CategoryTranslateCreateDto, CategoryTranslate>();
+            CreateMap<CategoryTranslate, CategoryTranslateUpdateDto>().ReverseMap();
         }
     }
 }
