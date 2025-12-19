@@ -9,6 +9,7 @@ namespace FermentaLabOnion.Application.DTOs.ProductTranslateDTOs
 {
     public record ProductTranslateUpdateDto
     {
+        public string Name { get; set; } = null!;
         public string Slug { get; set; } = null!;
         public string ShortDescription { get; set; } = null!;
         public string Description { get; set; } = null!;
