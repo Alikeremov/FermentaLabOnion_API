@@ -11,8 +11,8 @@ namespace FermentaLabOnion.Application.Abstraction.Services
     {
         Task<ICollection<CategoryTranslateGetDto>> GetAllAsync(int page, int take);
         Task<CategoryTranslateGetDto> GetAsync(int id);
-        Task CreateAsync(CategoryTranslateCreateDto aboutDto);
-        Task UpdateAsync(CategoryTranslateUpdateDto aboutDto, int id);
+        Task CreateAsync(CategoryTranslateCreateDto categoryDto);
+        Task UpdateAsync(CategoryTranslateUpdateDto categoryDto, int id);
         Task DeleteAsync(int id);
     }
 }

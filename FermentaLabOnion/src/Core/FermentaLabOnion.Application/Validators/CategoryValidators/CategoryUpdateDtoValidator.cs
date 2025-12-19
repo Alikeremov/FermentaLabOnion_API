@@ -13,8 +13,8 @@ namespace FermentaLabOnion.Application.Validators.CategoryValidators
         public CategoryUpdateDtoValidator()
         {
             RuleFor(x => x.Name)
-                .NotEmpty().WithMessage("You can not create category without name")
-                .MaximumLength(202).WithMessage("You can not use caracter above 202 for create category");
+                .NotEmpty().WithMessage("You can not update category without name")
+                .MaximumLength(202).WithMessage("You can not use caracter above 202 for update category");
         }
     }
 }

@@ -18,50 +18,50 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
     {
         private readonly ICategoryTranslateRepo _repository;
         private readonly IMapper _mapper;
-        private readonly ICategoryRepo _ourValueRepo;
+        private readonly ICategoryRepo _categoryRepo;
 
-        public CategoryTranslateService(ICategoryTranslateRepo repository, IMapper mapper, ICategoryRepo ourValueRepo)
+        public CategoryTranslateService(ICategoryTranslateRepo repository, IMapper mapper, ICategoryRepo categoryRepo)
         {
             _repository = repository;
             _mapper = mapper;
-            _ourValueRepo = ourValueRepo;
+            _categoryRepo = categoryRepo;
         }
         public async Task<ICollection<CategoryTranslateGetDto>> GetAllAsync(int page, int take)
         {
-            ICollection<CategoryTranslate> ourValues = await _repository.GetAllWhere(
+            ICollection<CategoryTranslate> categorys = await _repository.GetAllWhere(
                 skip: (page - 1) * take, take: take).ToListAsync();
-            return _mapper.Map<ICollection<CategoryTranslateGetDto>>(ourValues);
+            return _mapper.Map<ICollection<CategoryTranslateGetDto>>(categorys);
         }
 
         public async Task<CategoryTranslateGetDto> GetAsync(int id)
         {
-            CategoryTranslate ourValue = await _repository.GetByIdAsync(id);
-            return _mapper.Map<CategoryTranslateGetDto>(ourValue);
+            CategoryTranslate category = await _repository.GetByIdAsync(id);
+            return _mapper.Map<CategoryTranslateGetDto>(category);
         }
 
-        public async Task CreateAsync(CategoryTranslateCreateDto ourValueDto)
+        public async Task CreateAsync(CategoryTranslateCreateDto categoryDto)
         {
-            if (!await _ourValueRepo.IsExistAsync(x => x.Id == ourValueDto.CategoryId))
+            if (!await _categoryRepo.IsExistAsync(x => x.Id == categoryDto.CategoryId))
                 throw new NotFoundException();
-            bool isvalid = Enum.IsDefined(typeof(Language), ourValueDto.Language);
+            bool isvalid = Enum.IsDefined(typeof(Language), categoryDto.Language);
             if (!isvalid) throw new BadRequestException();
-            bool translateExists = await _repository.IsExistAsync(x => x.CategoryId == ourValueDto.CategoryId && x.Language == ourValueDto.Language);
+            bool translateExists = await _repository.IsExistAsync(x => x.CategoryId == categoryDto.CategoryId && x.Language == categoryDto.Language);
             if (translateExists)
                 throw new BadRequestException("A translation for this language already exists.");
-            CategoryTranslate ourValueTranslate = _mapper.Map<CategoryTranslate>(ourValueDto);
-            await _repository.AddAsync(ourValueTranslate);
+            CategoryTranslate categoryTranslate = _mapper.Map<CategoryTranslate>(categoryDto);
+            await _repository.AddAsync(categoryTranslate);
             await _repository.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(CategoryTranslateUpdateDto ourValueDto, int id)
+        public async Task UpdateAsync(CategoryTranslateUpdateDto categoryDto, int id)
         {
             CategoryTranslate existed = await _repository.GetByIdAsync(id);
             if (existed == null) throw new NotFoundException();
-            if (!await _ourValueRepo.IsExistAsync(x => x.Id == ourValueDto.CategoryId))
+            if (!await _categoryRepo.IsExistAsync(x => x.Id == categoryDto.CategoryId))
                 throw new NotFoundException();
-            bool isvalid = Enum.IsDefined(typeof(Language), ourValueDto.Language);
+            bool isvalid = Enum.IsDefined(typeof(Language), categoryDto.Language);
             if (!isvalid) throw new BadRequestException();
-            existed = _mapper.Map(ourValueDto, existed);
+            existed = _mapper.Map(categoryDto, existed);
             await _repository.UpdateAsync(existed);
         }
         public async Task DeleteAsync(int id)
