@@ -29,17 +29,17 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
 
         public async Task<ICollection<CategoryGetDto>> GetAllAsync(int page, int take)
         {
-            ICollection<Category> informations = await _repository.GetAllWhere(
+            ICollection<Category> categorys = await _repository.GetAllWhere(
                 skip: (page - 1) * take, take: take).ToListAsync();
-            return _mapper.Map<ICollection<CategoryGetDto>>(informations);
+            return _mapper.Map<ICollection<CategoryGetDto>>(categorys);
         }
         public async Task<ICollection<CategoryGetDto>> GetAllTranslatedAsync(int page,
             Language language, int take)
         {
-            ICollection<Category> informations = await _repository.GetAllWhere(
+            ICollection<Category> categorys = await _repository.GetAllWhere(
             skip: (page - 1) * take, take: take).ToListAsync();
 
-            ICollection<CategoryGetDto> informationItemDtos = _mapper.Map<ICollection<CategoryGetDto>>(informations);
+            ICollection<CategoryGetDto> categoryItemDtos = _mapper.Map<ICollection<CategoryGetDto>>(categorys);
 
             ICollection<CategoryTranslate> translates = await _translateRepo
                 .GetAllWhereTranslated(language: language, skip: (page - 1) * take, take: take)
@@ -47,57 +47,57 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
 
             foreach (var translate in translates)
             {
-                var informationItemDto = informationItemDtos.FirstOrDefault(dto => dto.Id == translate.CategoryId);
-                if (informationItemDto != null)
+                var categoryItemDto = categoryItemDtos.FirstOrDefault(dto => dto.Id == translate.CategoryId);
+                if (categoryItemDto != null)
                 {
-                    informationItemDto.Name = translate.Name ?? informationItemDto.Name;
+                    categoryItemDto.Name = translate.Name ?? categoryItemDto.Name;
                 }
             }
-            return informationItemDtos;
+            return categoryItemDtos;
         }
         public async Task<CategoryGetDto> GetAsync(int id)
         {
-            Category information = await _repository.GetByIdAsync(id);
-            if (information == null) throw new NotFoundException();
-            return _mapper.Map<CategoryGetDto>(information);
+            Category category = await _repository.GetByIdAsync(id);
+            if (category == null) throw new NotFoundException();
+            return _mapper.Map<CategoryGetDto>(category);
         }
         public async Task<CategoryGetDto> GetTranslatedAsync(int id, Language language)
         {
-            Category information = await _repository.GetByIdAsync(id);
-            if (information == null) throw new NotFoundException();
-            CategoryGetDto informationDto = _mapper.Map<CategoryGetDto>(information);
+            Category category = await _repository.GetByIdAsync(id);
+            if (category == null) throw new NotFoundException();
+            CategoryGetDto categoryDto = _mapper.Map<CategoryGetDto>(category);
             CategoryTranslate translate = await _translateRepo.GetByExpressionTranslatedAsync(
                 x => x.CategoryId == id,
                 language: language);
             if (translate != null)
             {
-                informationDto.Name = translate.Name ?? informationDto.Name;
+                categoryDto.Name = translate.Name ?? categoryDto.Name;
             }
             else
             {
-                informationDto.Name = "Default name";  
+                categoryDto.Name = "Default name";  
             }
-            return informationDto;
+            return categoryDto;
         }
 
-        public async Task CreateAsync(CategoryCreateDto informationdto)
+        public async Task CreateAsync(CategoryCreateDto categorydto)
         {
-            var result = await _repository.IsExistAsync(x => x.Name == informationdto.Name);
+            var result = await _repository.IsExistAsync(x => x.Name == categorydto.Name);
             if (result)
                 throw new AlreadyExistException("This Name alredy exist");
-            Category information = _mapper.Map<Category>(informationdto);
-            await _repository.AddAsync(information);
+            Category category = _mapper.Map<Category>(categorydto);
+            await _repository.AddAsync(category);
             await _repository.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(CategoryUpdateDto informationdto, int id)
+        public async Task UpdateAsync(CategoryUpdateDto categorydto, int id)
         {
             Category existed = await _repository.GetByIdAsync(id);
             if (existed == null) throw new NotFoundException();
-            var result = await _repository.IsExistAsync(x => x.Name == informationdto.Name);
+            var result = await _repository.IsExistAsync(x => x.Name == categorydto.Name);
             if (result)
                 throw new AlreadyExistException("This Name alredy exist");
-            existed = _mapper.Map(informationdto, existed);
+            existed = _mapper.Map(categorydto, existed);
             await _repository.UpdateAsync(existed);
         }
         public async Task DeleteAsync(int id)

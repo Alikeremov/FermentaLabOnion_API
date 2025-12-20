@@ -247,6 +247,583 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Products/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "OldPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsInStock",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantityPerPackage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Volume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Benefits",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsageInstructions",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warnings",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShelfLife",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TagIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Products/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "api/Products/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "api/Products/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "api/Products/Get/{id}/translated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "GetTranslates",
+    "RelativePath": "api/Products/GetTranslates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductsController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Products/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "OldPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsInStock",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantityPerPackage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Volume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Benefits",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsageInstructions",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warnings",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShelfLife",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TagIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductTranslatesController",
+    "Method": "Get",
+    "RelativePath": "api/ProductTranslates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductTranslatesController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/ProductTranslates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantityPerPackage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Volume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Benefits",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsageInstructions",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warnings",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShelfLife",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Language",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductTranslatesController",
+    "Method": "Get",
+    "RelativePath": "api/ProductTranslates/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductTranslatesController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ProductTranslates/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantityPerPackage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Volume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Benefits",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsageInstructions",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warnings",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShelfLife",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Language",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ProductTranslatesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/ProductTranslates/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FermentaLabOnion.API.Controllers.TagsController",
     "Method": "CreateAsync",
     "RelativePath": "api/Tags/Create",

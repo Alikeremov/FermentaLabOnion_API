@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FermentaLabOnion.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,8 @@ namespace FermentaLabOnion.Application.DTOs.ProductDTOs
         public string Brand { get; set; } = null!;
         public string CountryOfOrigin { get; set; } = null!;
         public string ShelfLife { get; set; } = null!;
+        public ICollection<int> TagIds { get; set; } = new List<int>();
+        public ICollection<string> Tags { get; set; } = new List<string>();
         public int? CategoryId { get; set; }
     }
 }

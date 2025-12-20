@@ -29,9 +29,9 @@ namespace FermentaLabOnion.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAsync([FromForm] CategoryTranslateCreateDto aboutDto)
+        public async Task<IActionResult> CreateAsync([FromForm] CategoryTranslateCreateDto categorytranslateDto)
         {
-            await _service.CreateAsync(aboutDto);
+            await _service.CreateAsync(categorytranslateDto);
             return StatusCode(StatusCodes.Status200OK);
         }
         [HttpPut("{id}")]

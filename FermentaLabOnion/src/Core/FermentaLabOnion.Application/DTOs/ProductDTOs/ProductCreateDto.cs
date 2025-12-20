@@ -27,6 +27,8 @@ namespace FermentaLabOnion.Application.DTOs.ProductDTOs
         public string Brand { get; set; } = null!;
         public string CountryOfOrigin { get; set; } = null!;
         public string ShelfLife { get; set; } = null!;
+        public ICollection<int> TagIds { get; set; }
+
         public int? CategoryId { get; set; }
     }
 }

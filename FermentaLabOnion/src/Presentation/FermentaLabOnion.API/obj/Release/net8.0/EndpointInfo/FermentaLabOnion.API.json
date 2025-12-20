@@ -402,6 +402,809 @@
         }
       }
     },
+    "/api/Products/Get": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/GetTranslates": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "language",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/Language"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Get/{id}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Get/{id}/translated": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/Language"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Create": {
+      "post": {
+        "tags": [
+          "Products"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Slug": {
+                    "type": "string"
+                  },
+                  "ShortDescription": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "OldPrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "SKU": {
+                    "type": "string"
+                  },
+                  "Stock": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IsInStock": {
+                    "type": "boolean"
+                  },
+                  "QuantityPerPackage": {
+                    "type": "string"
+                  },
+                  "Volume": {
+                    "type": "string"
+                  },
+                  "PackageType": {
+                    "type": "string"
+                  },
+                  "Ingredients": {
+                    "type": "string"
+                  },
+                  "Benefits": {
+                    "type": "string"
+                  },
+                  "UsageInstructions": {
+                    "type": "string"
+                  },
+                  "Warnings": {
+                    "type": "string"
+                  },
+                  "Brand": {
+                    "type": "string"
+                  },
+                  "CountryOfOrigin": {
+                    "type": "string"
+                  },
+                  "ShelfLife": {
+                    "type": "string"
+                  },
+                  "TagIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  },
+                  "CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Slug": {
+                  "style": "form"
+                },
+                "ShortDescription": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "OldPrice": {
+                  "style": "form"
+                },
+                "SKU": {
+                  "style": "form"
+                },
+                "Stock": {
+                  "style": "form"
+                },
+                "IsInStock": {
+                  "style": "form"
+                },
+                "QuantityPerPackage": {
+                  "style": "form"
+                },
+                "Volume": {
+                  "style": "form"
+                },
+                "PackageType": {
+                  "style": "form"
+                },
+                "Ingredients": {
+                  "style": "form"
+                },
+                "Benefits": {
+                  "style": "form"
+                },
+                "UsageInstructions": {
+                  "style": "form"
+                },
+                "Warnings": {
+                  "style": "form"
+                },
+                "Brand": {
+                  "style": "form"
+                },
+                "CountryOfOrigin": {
+                  "style": "form"
+                },
+                "ShelfLife": {
+                  "style": "form"
+                },
+                "TagIds": {
+                  "style": "form"
+                },
+                "CategoryId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Update/{id}": {
+      "put": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Slug": {
+                    "type": "string"
+                  },
+                  "ShortDescription": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "OldPrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "SKU": {
+                    "type": "string"
+                  },
+                  "Stock": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IsInStock": {
+                    "type": "boolean"
+                  },
+                  "QuantityPerPackage": {
+                    "type": "string"
+                  },
+                  "Volume": {
+                    "type": "string"
+                  },
+                  "PackageType": {
+                    "type": "string"
+                  },
+                  "Ingredients": {
+                    "type": "string"
+                  },
+                  "Benefits": {
+                    "type": "string"
+                  },
+                  "UsageInstructions": {
+                    "type": "string"
+                  },
+                  "Warnings": {
+                    "type": "string"
+                  },
+                  "Brand": {
+                    "type": "string"
+                  },
+                  "CountryOfOrigin": {
+                    "type": "string"
+                  },
+                  "ShelfLife": {
+                    "type": "string"
+                  },
+                  "TagIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  },
+                  "CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Slug": {
+                  "style": "form"
+                },
+                "ShortDescription": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "OldPrice": {
+                  "style": "form"
+                },
+                "SKU": {
+                  "style": "form"
+                },
+                "Stock": {
+                  "style": "form"
+                },
+                "IsInStock": {
+                  "style": "form"
+                },
+                "QuantityPerPackage": {
+                  "style": "form"
+                },
+                "Volume": {
+                  "style": "form"
+                },
+                "PackageType": {
+                  "style": "form"
+                },
+                "Ingredients": {
+                  "style": "form"
+                },
+                "Benefits": {
+                  "style": "form"
+                },
+                "UsageInstructions": {
+                  "style": "form"
+                },
+                "Warnings": {
+                  "style": "form"
+                },
+                "Brand": {
+                  "style": "form"
+                },
+                "CountryOfOrigin": {
+                  "style": "form"
+                },
+                "ShelfLife": {
+                  "style": "form"
+                },
+                "TagIds": {
+                  "style": "form"
+                },
+                "CategoryId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ProductTranslates": {
+      "get": {
+        "tags": [
+          "ProductTranslates"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ProductTranslates"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Slug": {
+                    "type": "string"
+                  },
+                  "ShortDescription": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "QuantityPerPackage": {
+                    "type": "string"
+                  },
+                  "Volume": {
+                    "type": "string"
+                  },
+                  "PackageType": {
+                    "type": "string"
+                  },
+                  "Ingredients": {
+                    "type": "string"
+                  },
+                  "Benefits": {
+                    "type": "string"
+                  },
+                  "UsageInstructions": {
+                    "type": "string"
+                  },
+                  "Warnings": {
+                    "type": "string"
+                  },
+                  "Brand": {
+                    "type": "string"
+                  },
+                  "CountryOfOrigin": {
+                    "type": "string"
+                  },
+                  "ShelfLife": {
+                    "type": "string"
+                  },
+                  "ProductId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Language": {
+                    "$ref": "#/components/schemas/Language"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Slug": {
+                  "style": "form"
+                },
+                "ShortDescription": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "QuantityPerPackage": {
+                  "style": "form"
+                },
+                "Volume": {
+                  "style": "form"
+                },
+                "PackageType": {
+                  "style": "form"
+                },
+                "Ingredients": {
+                  "style": "form"
+                },
+                "Benefits": {
+                  "style": "form"
+                },
+                "UsageInstructions": {
+                  "style": "form"
+                },
+                "Warnings": {
+                  "style": "form"
+                },
+                "Brand": {
+                  "style": "form"
+                },
+                "CountryOfOrigin": {
+                  "style": "form"
+                },
+                "ShelfLife": {
+                  "style": "form"
+                },
+                "ProductId": {
+                  "style": "form"
+                },
+                "Language": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ProductTranslates/{id}": {
+      "get": {
+        "tags": [
+          "ProductTranslates"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ProductTranslates"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Slug": {
+                    "type": "string"
+                  },
+                  "ShortDescription": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "QuantityPerPackage": {
+                    "type": "string"
+                  },
+                  "Volume": {
+                    "type": "string"
+                  },
+                  "PackageType": {
+                    "type": "string"
+                  },
+                  "Ingredients": {
+                    "type": "string"
+                  },
+                  "Benefits": {
+                    "type": "string"
+                  },
+                  "UsageInstructions": {
+                    "type": "string"
+                  },
+                  "Warnings": {
+                    "type": "string"
+                  },
+                  "Brand": {
+                    "type": "string"
+                  },
+                  "CountryOfOrigin": {
+                    "type": "string"
+                  },
+                  "ShelfLife": {
+                    "type": "string"
+                  },
+                  "ProductId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Language": {
+                    "$ref": "#/components/schemas/Language"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Slug": {
+                  "style": "form"
+                },
+                "ShortDescription": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "QuantityPerPackage": {
+                  "style": "form"
+                },
+                "Volume": {
+                  "style": "form"
+                },
+                "PackageType": {
+                  "style": "form"
+                },
+                "Ingredients": {
+                  "style": "form"
+                },
+                "Benefits": {
+                  "style": "form"
+                },
+                "UsageInstructions": {
+                  "style": "form"
+                },
+                "Warnings": {
+                  "style": "form"
+                },
+                "Brand": {
+                  "style": "form"
+                },
+                "CountryOfOrigin": {
+                  "style": "form"
+                },
+                "ShelfLife": {
+                  "style": "form"
+                },
+                "ProductId": {
+                  "style": "form"
+                },
+                "Language": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ProductTranslates"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Tags/Get": {
       "get": {
         "tags": [

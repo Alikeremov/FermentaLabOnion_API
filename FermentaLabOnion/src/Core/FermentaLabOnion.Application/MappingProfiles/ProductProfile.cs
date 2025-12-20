@@ -9,14 +9,16 @@ using System.Threading.Tasks;
 
 namespace FermentaLabOnion.Application.MappingProfiles
 {
-    public class ProductProfile: Profile
+    public class ProductProfile : Profile
     {
         public ProductProfile()
         {
-            CreateMap<Product, ProductGetDto>();
+            CreateMap<Product, ProductGetDto>()
+                .ForMember(d => d.Tags,o => o.MapFrom(s =>s.ProductTags.Select(pt => pt.Tag.Name)))
+                .ForMember(d => d.TagIds,o => o.MapFrom(s => s.ProductTags.Select(pt => pt.TagId)));
             CreateMap<ProductCreateDto, Product>();
             CreateMap<Product, ProductUpdateDto>().ReverseMap();
         }
     }
-    
+
 }

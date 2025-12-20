@@ -1,18 +1,17 @@
 ﻿using FermentaLabOnion.Application.Abstraction.Services;
-using FermentaLabOnion.Application.DTOs.CategoryDTOs;
-using FermentaLabOnion.Domain.Enums;
+using FermentaLabOnion.Application.DTOs.ProductTranslateDTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FermentaLabOnion.API.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class CategoriesController : ControllerBase
+    public class ProductTranslatesController : ControllerBase
     {
-        private readonly ICategoryService _service;
+        private readonly IProductTranslateService _service;
 
-        public CategoriesController(ICategoryService service)
+        public ProductTranslatesController(IProductTranslateService service)
         {
             _service = service;
         }
@@ -21,32 +20,22 @@ namespace FermentaLabOnion.API.Controllers
         {
             return StatusCode(StatusCodes.Status200OK, await _service.GetAllAsync(page, take));
         }
-        [HttpGet]
-        public async Task<IActionResult> GetTranslates(Language language, int page = 1, int take = 3)
-        {
-            return StatusCode(StatusCodes.Status200OK,
-                await _service.GetAllTranslatedAsync(page, language: language, take));
-        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
             if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
             return StatusCode(StatusCodes.Status200OK, await _service.GetAsync(id));
         }
-        [HttpGet("{id}/translated")]
-        public async Task<IActionResult> Get(int id, Language language)
-        {
-            if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
-            return StatusCode(StatusCodes.Status200OK, await _service.GetTranslatedAsync(id, language));
-        }
+
         [HttpPost]
-        public async Task<IActionResult> CreateAsync([FromForm] CategoryCreateDto categoryDto)
+        public async Task<IActionResult> CreateAsync([FromForm] ProductTranslateCreateDto productDto)
         {
-            await _service.CreateAsync(categoryDto);
+            await _service.CreateAsync(productDto);
             return StatusCode(StatusCodes.Status200OK);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAsync([FromForm] CategoryUpdateDto updateDto, int id)
+        public async Task<IActionResult> UpdateAsync([FromForm] ProductTranslateUpdateDto updateDto, int id)
         {
             if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
             await _service.UpdateAsync(updateDto, id);
