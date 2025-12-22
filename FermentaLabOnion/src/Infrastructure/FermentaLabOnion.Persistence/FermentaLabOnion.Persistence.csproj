@@ -33,8 +33,4 @@
     <ProjectReference Include="..\..\Core\FermentaLabOnion.Application\FermentaLabOnion.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Utilites\Helpers\" />
-  </ItemGroup>
-
 </Project>

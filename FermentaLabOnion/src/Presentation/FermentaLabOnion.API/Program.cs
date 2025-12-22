@@ -1,5 +1,6 @@
 using FermentaLabOnion.API.Extentions;
 using FermentaLabOnion.Application.ServiceRegistrations;
+using FermentaLabOnion.Infrastructure.ServiceRegistrations;
 using FermentaLabOnion.Persistence.ServiceRegistrations;
 using Microsoft.OpenApi.Models;
 
@@ -49,6 +50,7 @@ builder.Services.AddSwaggerGen(opt =>
 
 builder.Services.AddPersistanceServices(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices(builder.Configuration);
 var app = builder.Build();
 app.UseCors();
 // Configure the HTTP request pipeline.

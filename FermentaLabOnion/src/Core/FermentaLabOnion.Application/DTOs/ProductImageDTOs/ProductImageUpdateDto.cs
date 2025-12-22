@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FermentaLabOnion.Domain.Enums;
+using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +10,9 @@ namespace FermentaLabOnion.Application.DTOs.ProductImageDTOs
 {
     public record ProductImageUpdateDto
     {
-        public string Url { get; set; } = null!;
-        public bool IsPrimary { get; set; }
+        public ImageType ImageType { get; set; }
+        public IFormFile? NewImage { get; set; }
+        public string? ExistUrl { get; set; } 
         public int? ProductId { get; set; }
     }
 }

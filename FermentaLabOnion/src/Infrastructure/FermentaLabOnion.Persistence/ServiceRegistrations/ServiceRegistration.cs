@@ -56,6 +56,7 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<ICategoryTranslateService, CategoryTranslateService>();
             services.AddScoped<ITagService, TagService>();
             services.AddScoped<ITagTranslateService, TagTranslateService>();
+            services.AddScoped<IProductImageService, ProductImageService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductTranslateService, ProductTranslateService>();
 

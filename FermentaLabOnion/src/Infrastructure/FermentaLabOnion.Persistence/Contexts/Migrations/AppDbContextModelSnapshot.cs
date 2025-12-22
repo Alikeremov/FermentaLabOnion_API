@@ -320,10 +320,10 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool?>("IsDeleted")
-                        .HasColumnType("bit");
+                    b.Property<int>("ImageType")
+                        .HasColumnType("int");
 
-                    b.Property<bool>("IsPrimary")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("ModifiedAt")
