@@ -9,6 +9,7 @@ namespace FermentaLabOnion.Domain.Entities
 {
     public class CategoryTranslate:BaseEntityTranslateNameable
     {
+        public string? Description { get; set; }
         //Reletional properties
         public int CategoryId { get; set; }
         public Category Category { get; set; }

@@ -14,10 +14,6 @@ namespace FermentaLabOnion.Domain.Entities.Common
         public DateTime? ModifiedAt { get; set; }
         public string? ModifiedBy { get; set; }
         public bool? IsDeleted { get; set; }
-        public BaseEntity()
-        {
-            CreatedBy = "Ali.Keremov";
-            CreatedAt = DateTime.Now;
-        }
+        
     }
 }

@@ -10,6 +10,8 @@ namespace FermentaLabOnion.Application.DTOs.CategoryTranslateDTOs
     public record CategoryTranslateUpdateDto
     {
         public string Name { get; set; } = null!;
+        public string? Description { get; set; }
+
         public int CategoryId { get; set; }
         public Language Language { get; set; }
     }

@@ -16,6 +16,8 @@ namespace FermentaLabOnion.Persistence.Configurations
             builder.Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(202);
+            builder.Property(x => x.Description)
+                .HasMaxLength(3000);
         }
     }
 }

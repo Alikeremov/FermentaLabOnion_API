@@ -51,6 +51,7 @@ builder.Services.AddSwaggerGen(opt =>
 builder.Services.AddPersistanceServices(builder.Configuration);
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 app.UseCors();
 // Configure the HTTP request pipeline.

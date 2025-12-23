@@ -13,9 +13,11 @@ namespace FermentaLabOnion.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.Property(x=>x.Name)
+            builder.Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(202);
+            builder.Property(x => x.Description)
+                .HasMaxLength(3000);
         }
     }
 }

@@ -5,6 +5,246 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Autentications/GetCurrentUser": {
+      "get": {
+        "tags": [
+          "Autentications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/Register": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Surname": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "ConfirmPassword": {
+                    "type": "string"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "BirthDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Surname": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "ConfirmPassword": {
+                  "style": "form"
+                },
+                "Image": {
+                  "style": "form"
+                },
+                "BirthDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/Login": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UsernameOrEmail": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "isRemembered": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "UsernameOrEmail": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "isRemembered": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/CreateRole": {
+      "get": {
+        "tags": [
+          "Autentications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/ForgotPassword/forgot-password": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Email": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Email": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/ResetPassword/reset-password": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Token": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Token": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/Refresh/refresh": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Autentications/Logout/logout": {
+      "post": {
+        "tags": [
+          "Autentications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Categories/Get": {
       "get": {
         "tags": [
@@ -142,11 +382,24 @@
                 "properties": {
                   "Name": {
                     "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "binary"
                   }
                 }
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Image": {
                   "style": "form"
                 }
               }
@@ -184,11 +437,30 @@
                 "properties": {
                   "Name": {
                     "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "NewImage": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ExistImage": {
+                    "type": "string"
                   }
                 }
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "NewImage": {
+                  "style": "form"
+                },
+                "ExistImage": {
                   "style": "form"
                 }
               }
@@ -294,6 +566,9 @@
                   "Name": {
                     "type": "string"
                   },
+                  "Description": {
+                    "type": "string"
+                  },
                   "CategoryId": {
                     "type": "integer",
                     "format": "int32"
@@ -305,6 +580,9 @@
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "Description": {
                   "style": "form"
                 },
                 "CategoryId": {
@@ -349,6 +627,9 @@
                   "Name": {
                     "type": "string"
                   },
+                  "Description": {
+                    "type": "string"
+                  },
                   "CategoryId": {
                     "type": "integer",
                     "format": "int32"
@@ -360,6 +641,9 @@
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "Description": {
                   "style": "form"
                 },
                 "CategoryId": {

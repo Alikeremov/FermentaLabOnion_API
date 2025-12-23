@@ -5,6 +5,7 @@ using FermentaLabOnion.Application.DTOs.CategoryDTOs;
 using FermentaLabOnion.Domain.Entities;
 using FermentaLabOnion.Domain.Enums;
 using FermentaLabOnion.Persistence.Utilites.Exceptions.Common;
+using FermentaLabOnion.Persistence.Utilites.Helpers;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,12 +20,14 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
         private readonly ICategoryRepo _repository;
         private readonly IMapper _mapper;
         private readonly ICategoryTranslateRepo _translateRepo;
-
-        public CategoryService(ICategoryRepo repository, IMapper mapper, ICategoryTranslateRepo translateRepo)
+        private readonly ICloudinaryService _cloudinaryService;
+        
+        public CategoryService(ICategoryRepo repository, IMapper mapper, ICategoryTranslateRepo translateRepo,ICloudinaryService cloudinaryService)
         {
             _repository = repository;
             _mapper = mapper;
             _translateRepo = translateRepo;
+            _cloudinaryService = cloudinaryService;
         }
 
         public async Task<ICollection<CategoryGetDto>> GetAllAsync(int page, int take)
@@ -51,6 +54,7 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
                 if (categoryItemDto != null)
                 {
                     categoryItemDto.Name = translate.Name ?? categoryItemDto.Name;
+                    categoryItemDto.Description = translate.Description ?? categoryItemDto.Description;
                 }
             }
             return categoryItemDtos;
@@ -72,6 +76,7 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
             if (translate != null)
             {
                 categoryDto.Name = translate.Name ?? categoryDto.Name;
+                categoryDto.Description = translate.Description ?? categoryDto.Description;
             }
             else
             {
@@ -82,10 +87,16 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
 
         public async Task CreateAsync(CategoryCreateDto categorydto)
         {
+            
             var result = await _repository.IsExistAsync(x => x.Name == categorydto.Name);
             if (result)
                 throw new AlreadyExistException("This Name alredy exist");
             Category category = _mapper.Map<Category>(categorydto);
+            if (categorydto.Image != null)
+            {
+                categorydto.Image.ValidateImage();
+                category.Url = await _cloudinaryService.FileCreateAsync(categorydto.Image);
+            }
             await _repository.AddAsync(category);
             await _repository.SaveChangesAsync();
         }
@@ -98,12 +109,26 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
             if (result)
                 throw new AlreadyExistException("This Name alredy exist");
             existed = _mapper.Map(categorydto, existed);
+            if (categorydto.NewImage != null)
+            {
+                var imageResult = true;
+                categorydto.NewImage.ValidateImage();
+                if(existed.Url!=null)
+                   imageResult = await _cloudinaryService.FileDeleteAsync(existed.Url);
+                if (!imageResult)
+                    throw new UnDeleteException();
+                existed.Url = await _cloudinaryService.FileCreateAsync(categorydto.NewImage);
+            }
             await _repository.UpdateAsync(existed);
         }
         public async Task DeleteAsync(int id)
         {
             Category existed = await _repository.GetByIdAsync(id);
+            var result = true;
             if (existed == null) throw new NotFoundException();
+            if(existed.Url != null) 
+                result= await _cloudinaryService.FileDeleteAsync(existed.Url);
+            if (result == false) throw new UnDeleteException();
             await _repository.DeleteAsync(existed);
         }
     }

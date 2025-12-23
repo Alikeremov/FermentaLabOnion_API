@@ -53,7 +53,7 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
             ProductImage productImage = await _repository.GetByExpressionAsync(x=>x.ProductId==productId && x.ImageType==imageType);
             return _mapper.Map<ProductImageGetDto>(productImage);
         }
-
+    
         public async Task CreateAsync(ProductImageCreateDto productImagedto)
         {
             productImagedto.Image.ValidateImage();

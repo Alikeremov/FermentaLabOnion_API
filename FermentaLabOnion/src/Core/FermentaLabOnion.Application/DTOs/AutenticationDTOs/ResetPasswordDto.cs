@@ -8,7 +8,8 @@ namespace FermentaLabOnion.Application.DTOs.AutenticationDTOs
 {
     public record ResetPasswordDto
     {
+        public string Token { get; set; } = null!;
+        public string Email { get; set; } = null!;
         public string Password { get; set; } = null!;
-        public string ConfirmPassword { get; set; } = null!;
     }
 }
