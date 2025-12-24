@@ -19,6 +19,7 @@ namespace FermentaLabOnion.Infrastructure.ServiceRegistrations
             services.AddScoped<ICloudinaryService, CloudinaryService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IJwtTokenService, JwtTokenService>();
+            services.AddScoped<IWishlistCookieService, WishlistCookieService>();
             services.AddAuthentication(opt =>
             {
                 opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

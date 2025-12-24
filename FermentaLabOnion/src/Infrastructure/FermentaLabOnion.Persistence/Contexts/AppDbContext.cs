@@ -31,7 +31,8 @@ namespace FermentaLabOnion.Persistence.Contexts
         public DbSet<Tag> Tags { get; set; }
         public DbSet<TagTranslate> TagTranslates { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
-
+        public DbSet<Wishlist> Wishlists { get; set; }
+        public DbSet<WishlistItem> WishlistItems { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var userId = _accessor?.HttpContext?.User?.FindFirstValue(ClaimTypes.NameIdentifier);

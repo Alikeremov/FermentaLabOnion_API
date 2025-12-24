@@ -52,6 +52,8 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<ITagRepo, TagRepo>();
             services.AddScoped<ITagTranslateRepo, TagTranslateRepo>();
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<IWishlistRepo, WishlistRepo>();
+            services.AddScoped<IWishlistItemRepo, WishlistItemRepo>();
             //Registration of Services
             services.AddScoped<IAutenticationService, AutenticationService>();
             services.AddScoped<ICategoryService, CategoryService>();
@@ -61,6 +63,7 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<IProductImageService, ProductImageService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductTranslateService, ProductTranslateService>();
+            services.AddScoped<IWishlistService, WishlistService>();
 
 
 

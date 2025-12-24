@@ -1425,5 +1425,47 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.WishlistsController",
+    "Method": "Get",
+    "RelativePath": "api/Wishlists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.WishlistsController",
+    "Method": "Add",
+    "RelativePath": "api/Wishlists/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.WishlistsController",
+    "Method": "Remove",
+    "RelativePath": "api/Wishlists/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
