@@ -15,7 +15,8 @@ namespace FermentaLabOnion.Application.MappingProfiles
         {
             CreateMap<Product, ProductGetDto>()
                 .ForMember(d => d.Tags,o => o.MapFrom(s =>s.ProductTags.Select(pt => pt.Tag.Name)))
-                .ForMember(d => d.TagIds,o => o.MapFrom(s => s.ProductTags.Select(pt => pt.TagId)));
+                .ForMember(d => d.TagIds,o => o.MapFrom(s => s.ProductTags.Select(pt => pt.TagId)))
+                .ForMember(d => d.Images, o => o.MapFrom(s => s.ProductImages)); ;
             CreateMap<ProductCreateDto, Product>();
             CreateMap<Product, ProductUpdateDto>().ReverseMap();
         }

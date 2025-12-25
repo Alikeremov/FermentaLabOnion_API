@@ -33,6 +33,18 @@ namespace FermentaLabOnion.Persistence.Contexts
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
         public DbSet<WishlistItem> WishlistItems { get; set; }
+        public DbSet<App> Apps { get; set; }
+        public DbSet<AppTranslate> AppTranslates { get; set; }
+        public DbSet<ChineseWisdom> ChineseWisdoms { get; set; }
+        public DbSet<ChineseWisdomTranslate> ChineseWisdomTranslates { get; set; }
+        public DbSet<HeritageProcess> HeritageProcesses { get; set; }
+        public DbSet<HeritageProcessTranslate> HeritageProcessTranslates { get; set; }
+        public DbSet<Information> Informations { get; set; }
+        public DbSet<InformationTranslate> InformationTranslates { get; set; }
+        public DbSet<Question> Questions { get; set; } 
+        public DbSet<QuestionTranslate> QuestionTranslates { get; set; }
+        public DbSet<ShareSpecial> ShareSpecials { get; set; }
+        public DbSet<ShareSpecialTranslate> ShareSpecialTranslates { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var userId = _accessor?.HttpContext?.User?.FindFirstValue(ClaimTypes.NameIdentifier);

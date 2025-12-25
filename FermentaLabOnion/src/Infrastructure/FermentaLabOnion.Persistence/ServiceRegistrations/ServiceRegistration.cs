@@ -54,6 +54,18 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
             services.AddScoped<IWishlistRepo, WishlistRepo>();
             services.AddScoped<IWishlistItemRepo, WishlistItemRepo>();
+            services.AddScoped<IAppRepo, AppRepo>();
+            services.AddScoped<IAppTranslateRepo, AppTranslateRepo>();
+            services.AddScoped<IChineseWisdomRepo, ChineseWisdomRepo>();
+            services.AddScoped<IChineseWisdomTranslateRepo, ChineseWisdomTranslateRepo>();
+            services.AddScoped<IHeritageProcessRepo, HeritageProcessRepo>();
+            services.AddScoped<IHeritageProcessTranslateRepo, HeritageProcessTranslateRepo>();
+            services.AddScoped<IInformationRepo, InformationRepo>();
+            services.AddScoped<IInformationTranslateRepo, InformationTranslateRepo>();
+            services.AddScoped<IQuestionRepo, QuestionRepo>();
+            services.AddScoped<IQuestionTranslateRepo, QuestionTranslateRepo>();
+            services.AddScoped<IShareSpecialRepo, ShareSpecialRepo>();
+            services.AddScoped<IShareSpecialTranslateRepo, ShareSpecialTranslateRepo>();
             //Registration of Services
             services.AddScoped<IAutenticationService, AutenticationService>();
             services.AddScoped<ICategoryService, CategoryService>();

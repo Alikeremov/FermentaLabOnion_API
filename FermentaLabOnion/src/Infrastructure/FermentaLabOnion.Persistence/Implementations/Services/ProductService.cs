@@ -33,7 +33,7 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
         public async Task<ICollection<ProductGetDto>> GetAllAsync(int page, int take)
         {
             ICollection<Product> products = await _productRepo
-                .GetAllWhere(skip: (page - 1) * take, take: take,includes: new[] { "ProductTags", "ProductTags.Tag" })
+                .GetAllWhere(skip: (page - 1) * take, take: take,includes: new[] { "ProductImages", "ProductTags", "ProductTags.Tag" })
                 .ToListAsync();
             return _mapper.Map<ICollection<ProductGetDto>>(products);
         }
@@ -41,7 +41,7 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
         public async Task<ICollection<ProductGetDto>> GetAllTranslatedAsync(int page, Language language, int take)
         {
             ICollection<Product> products = await _productRepo
-                .GetAllWhere(skip: (page - 1) * take, take: take, includes: new[] { "ProductTags", "ProductTags.Tag" })
+                .GetAllWhere(skip: (page - 1) * take, take: take, includes: new[] { "ProductImages", "ProductTags", "ProductTags.Tag" })
                 .ToListAsync();
             ICollection<ProductGetDto> productGetDtos = _mapper.Map<ICollection<ProductGetDto>>(products);
 
@@ -73,14 +73,14 @@ namespace FermentaLabOnion.Persistence.Implementations.Services
         }
         public async Task<ProductGetDto> GetAsync(int id)
         {
-            Product product=await _productRepo.GetByIdAsync(id, includes: new[] { "ProductTags", "ProductTags.Tag" });
+            Product product=await _productRepo.GetByIdAsync(id, includes: new[] { "ProductImages", "ProductTags", "ProductTags.Tag" });
             if (product == null) throw new NotFoundException("Product Not Found");
             return _mapper.Map<ProductGetDto>(product);
         }
 
         public async Task<ProductGetDto> GetTranslatedAsync(int id, Language language)
         {
-            Product product = await _productRepo.GetByIdAsync(id, includes: new[] { "ProductTags", "ProductTags.Tag" });
+            Product product = await _productRepo.GetByIdAsync(id, includes: new[] { "ProductImages", "ProductTags", "ProductTags.Tag" });
             if (product == null) throw new NotFoundException("Product Not Found");
             ProductGetDto productGetDto=_mapper.Map<ProductGetDto>(product);
             ProductTranslate productTranslate=await _translateRepo.GetByExpressionTranslatedAsync(
