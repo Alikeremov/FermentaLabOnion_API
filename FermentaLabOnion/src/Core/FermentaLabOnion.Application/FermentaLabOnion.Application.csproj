@@ -33,19 +33,4 @@
     <ProjectReference Include="..\FermentaLabOnion.Domain\FermentaLabOnion.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Validators\AppValidators\" />
-    <Folder Include="Validators\AppTranslateValidators\" />
-    <Folder Include="Validators\ChineseWisdomValidators\" />
-    <Folder Include="Validators\ChineseWisdomTranslateValidators\" />
-    <Folder Include="Validators\HeritageProcessValidators\" />
-    <Folder Include="Validators\HeritageProcessTranslateValidators\" />
-    <Folder Include="Validators\InformationValidators\" />
-    <Folder Include="Validators\InformationTranslateValidators\" />
-    <Folder Include="Validators\ShareSpecialTranslateValidators\" />
-    <Folder Include="Validators\ShareSpecialValidators\" />
-    <Folder Include="Validators\QuestionTranslateValidators\" />
-    <Folder Include="Validators\QuestionValidators\" />
-  </ItemGroup>
-
 </Project>

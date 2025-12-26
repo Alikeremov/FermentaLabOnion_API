@@ -9,8 +9,8 @@ namespace FermentaLabOnion.Application.DTOs.ShareSpecialDTOs
     public record ShareSpecialGetDto
     {
         public int Id { get; set; }
-        public string Tittle { get; set; } = null!;
-        public string Subtittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
+        public string Subtitle { get; set; } = null!;
         public string Image { get; set; } = null!;
     }
 }

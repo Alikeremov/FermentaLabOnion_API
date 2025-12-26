@@ -9,7 +9,7 @@ namespace FermentaLabOnion.Application.DTOs.QuestionDTOs
 {
     public record QuestionCreateDto
     {
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public QuestionType QuestionType { get; set; }
     }

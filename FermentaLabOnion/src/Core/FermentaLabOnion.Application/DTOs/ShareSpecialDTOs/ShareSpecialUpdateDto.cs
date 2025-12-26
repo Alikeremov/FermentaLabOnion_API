@@ -9,8 +9,8 @@ namespace FermentaLabOnion.Application.DTOs.ShareSpecialDTOs
 {
     public record ShareSpecialUpdateDto
     {
-        public string Tittle { get; set; } = null!;
-        public string Subtittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
+        public string Subtitle { get; set; } = null!;
         public string? ExistImage { get; set; }
         public IFormFile? NewImage { get; set; }
     }

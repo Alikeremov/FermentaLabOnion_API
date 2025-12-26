@@ -9,7 +9,7 @@ namespace FermentaLabOnion.Application.DTOs.InformationDTOs
 {
     public record InformationCreateDto
     {
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         public IFormFile Image { get; set; } = null!;
     }
 }
