@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FermentaLabOnion.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10ce8976341657da50bbdf4f8e900246ccff894f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2df274b27055e75cea7e7fab081c788284d536c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FermentaLabOnion.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FermentaLabOnion.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

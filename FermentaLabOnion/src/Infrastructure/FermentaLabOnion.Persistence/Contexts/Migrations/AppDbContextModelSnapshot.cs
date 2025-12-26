@@ -903,6 +903,9 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("QuestionType")
+                        .HasColumnType("int");
+
                     b.Property<string>("Tittle")
                         .IsRequired()
                         .HasMaxLength(200)

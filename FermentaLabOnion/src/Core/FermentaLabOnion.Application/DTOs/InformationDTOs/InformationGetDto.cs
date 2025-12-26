@@ -8,5 +8,8 @@ namespace FermentaLabOnion.Application.DTOs.InformationDTOs
 {
     public record InformationGetDto
     {
+        public int Id { get; set; }
+        public string Tittle { get; set; } = null!;
+        public string Image { get; set; } = null!;
     }
 }

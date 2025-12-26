@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FermentaLabOnion.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace FermentaLabOnion.Application.DTOs.AppTranslateDTOs
 {
     public record AppTranslateGetDto
     {
+        public int Id { get; set; }
+        public string Title { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public int AppId { get; set; }
+        public Language Language { get; set; }
     }
 }
