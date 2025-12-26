@@ -9,7 +9,7 @@ namespace FermentaLabOnion.Domain.Entities
 {
     public class App:BaseEntity
     {
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public string Image { get; set; } = null!;
         public bool IsMain { get; set; }

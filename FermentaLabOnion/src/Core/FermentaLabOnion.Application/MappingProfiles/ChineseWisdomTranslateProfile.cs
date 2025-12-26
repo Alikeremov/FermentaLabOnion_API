@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FermentaLabOnion.Application.DTOs.ChineseWisdomDTOs;
+using FermentaLabOnion.Application.DTOs.ChineseWisdomTranslateDTOs;
 using FermentaLabOnion.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace FermentaLabOnion.Application.MappingProfiles
 {
     public class ChineseWisdomTranslateProfile : Profile
     {
-        public ChineseWisdomProfile()
+        public ChineseWisdomTranslateProfile()
         {
-            CreateMap<ChineseWisdom, ChineseWisdomGetDto>();
-            CreateMap<ChineseWisdomCreateDto, ChineseWisdom>();
-            CreateMap<ChineseWisdom, ChineseWisdomUpdateDto>().ReverseMap();
+            CreateMap<ChineseWisdomTranslate, ChineseWisdomTranslateGetDto>();
+            CreateMap<ChineseWisdomTranslateCreateDto, ChineseWisdomTranslate>();
+            CreateMap<ChineseWisdomTranslate, ChineseWisdomTranslateUpdateDto>().ReverseMap();
         }
     }
 }

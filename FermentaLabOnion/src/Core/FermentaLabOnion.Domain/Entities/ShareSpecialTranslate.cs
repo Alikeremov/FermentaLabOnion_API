@@ -9,8 +9,8 @@ namespace FermentaLabOnion.Domain.Entities
 {
     public class ShareSpecialTranslate:BaseEntityTranslate
     {
-        public string Tittle { get; set; } = null!;
-        public string Subtittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
+        public string Subtitle { get; set; } = null!;
 
         public int ShareSpecialId { get; set; }
         public ShareSpecial ShareSpecial { get; set; } = null!;

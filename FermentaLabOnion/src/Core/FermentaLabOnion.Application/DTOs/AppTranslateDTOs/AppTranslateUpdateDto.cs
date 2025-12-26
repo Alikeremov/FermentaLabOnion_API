@@ -11,7 +11,7 @@ namespace FermentaLabOnion.Application.DTOs.AppTranslateDTOs
     {
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public int AppId { get; set; }
+        public int ApplicationId { get; set; }
         public Language Language { get; set; }
     }
 }

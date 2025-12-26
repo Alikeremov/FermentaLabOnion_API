@@ -10,7 +10,7 @@ namespace FermentaLabOnion.Domain.Entities
     public class Information:BaseEntity
     {
         public string Image { get; set; } = null!;
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         //Relational properties
         public ICollection<InformationTranslate> Translates { get; set; }
     }

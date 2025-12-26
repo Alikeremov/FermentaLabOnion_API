@@ -10,7 +10,7 @@ namespace FermentaLabOnion.Domain.Entities
 {
     public class Question:BaseEntity
     {
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public QuestionType QuestionType { get; set; }
         //Relational properties

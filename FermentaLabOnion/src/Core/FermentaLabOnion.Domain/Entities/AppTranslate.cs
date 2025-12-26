@@ -9,7 +9,7 @@ namespace FermentaLabOnion.Domain.Entities
 {
     public class AppTranslate:BaseEntityTranslate
     {
-        public string Tittle { get; set; } = null!;
+        public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         //Relational properties
         public int ApplicationId { get; set; }
