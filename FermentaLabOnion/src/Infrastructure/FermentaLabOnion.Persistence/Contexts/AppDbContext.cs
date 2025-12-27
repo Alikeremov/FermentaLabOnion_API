@@ -45,6 +45,7 @@ namespace FermentaLabOnion.Persistence.Contexts
         public DbSet<QuestionTranslate> QuestionTranslates { get; set; }
         public DbSet<ShareSpecial> ShareSpecials { get; set; }
         public DbSet<ShareSpecialTranslate> ShareSpecialTranslates { get; set; }
+        public DbSet<Review> Reviews { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var userId = _accessor?.HttpContext?.User?.FindFirstValue(ClaimTypes.NameIdentifier);

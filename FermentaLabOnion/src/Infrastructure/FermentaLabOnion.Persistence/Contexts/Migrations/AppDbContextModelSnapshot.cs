@@ -1011,6 +1011,59 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.ToTable("RefreshTokens");
                 });
 
+            modelBuilder.Entity("FermentaLabOnion.Domain.Entities.Review", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<bool>("IsApproved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("FermentaLabOnion.Domain.Entities.ShareSpecial", b =>
                 {
                     b.Property<int>("Id")
@@ -1523,6 +1576,25 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("FermentaLabOnion.Domain.Entities.Review", b =>
+                {
+                    b.HasOne("FermentaLabOnion.Domain.Entities.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("FermentaLabOnion.Domain.Entities.Product", "Product")
+                        .WithMany("Reviews")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FermentaLabOnion.Domain.Entities.ShareSpecialTranslate", b =>
                 {
                     b.HasOne("FermentaLabOnion.Domain.Entities.ShareSpecial", "ShareSpecial")
@@ -1649,6 +1721,8 @@ namespace FermentaLabOnion.Persistence.Contexts.Migrations
                     b.Navigation("ProductTags");
 
                     b.Navigation("ProductTranslates");
+
+                    b.Navigation("Reviews");
                 });
 
             modelBuilder.Entity("FermentaLabOnion.Domain.Entities.Question", b =>

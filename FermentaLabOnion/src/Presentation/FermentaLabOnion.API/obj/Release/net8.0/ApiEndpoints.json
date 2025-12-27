@@ -2625,6 +2625,137 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "Approve",
+    "RelativePath": "api/Reviews/Approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsApproved",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "Create",
+    "RelativePath": "api/Reviews/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rate",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "Delete",
+    "RelativePath": "api/Reviews/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "Get",
+    "RelativePath": "api/Reviews/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "Get",
+    "RelativePath": "api/Reviews/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FermentaLabOnion.API.Controllers.ReviewsController",
+    "Method": "GetByProductAndApproved",
+    "RelativePath": "api/Reviews/GetByProductAndApproved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsApproved",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FermentaLabOnion.API.Controllers.ShareSpecialsController",
     "Method": "CreateAsync",
     "RelativePath": "api/ShareSpecials/Create",

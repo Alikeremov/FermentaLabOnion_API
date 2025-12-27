@@ -66,6 +66,7 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<IQuestionTranslateRepo, QuestionTranslateRepo>();
             services.AddScoped<IShareSpecialRepo, ShareSpecialRepo>();
             services.AddScoped<IShareSpecialTranslateRepo, ShareSpecialTranslateRepo>();
+            services.AddScoped<IReviewRepo, ReviewRepo>();
             //Registration of Services
             services.AddScoped<IAutenticationService, AutenticationService>();
             services.AddScoped<ICategoryService, CategoryService>();
@@ -88,6 +89,7 @@ namespace FermentaLabOnion.Persistence.ServiceRegistrations
             services.AddScoped<IQuestionTranslateService, QuestionTranslateService>();
             services.AddScoped<IShareSpecialService, ShareSpecialService>();
             services.AddScoped<IShareSpecialTranslateService, ShareSpecialTranslateService>();
+            services.AddScoped<IReviewService, ReviewService>();
 
 
 
